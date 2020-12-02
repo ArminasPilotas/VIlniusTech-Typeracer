@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Typeracer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Typeracer_jar</output-path>
+    <root id="archive" name="Typeracer.jar">
+      <element id="module-output" name="Typeracer" />
+      <element id="library" level="project" name="javafx-sdk-11.0" />
+    </root>
+  </artifact>
+</component>
