@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
@@ -78,3 +79,85 @@
       </Button>
    </children>
 </AnchorPane>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="gameAnchorPane" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameWindowController">
+   <children>
+      <ImageView fitHeight="147.0" fitWidth="71.0" layoutX="47.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+          <Image url="@/TypeThisIcon.png" />
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="88.0" layoutX="47.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+          <Image url="@/YourTextIcon.png" />
+      </ImageView>
+      <TextArea fx:id="sentenceTextField" disable="true" editable="false" layoutX="161.0" layoutY="219.0" prefHeight="148.0" prefWidth="369.0" style="-fx-background-color: white; -fx-opacity: 1;" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></TextArea>
+      <TextArea fx:id="typedSentenceTextField" layoutX="161.0" layoutY="396.0" prefHeight="96.0" prefWidth="369.0" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></TextArea>
+      <Button fx:id="playGame" layoutX="208.0" layoutY="532.0" mnemonicParsing="false" onAction="#startGameSessionEvent" prefHeight="25.0" prefWidth="205.0" text="I am ready">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <TextField disable="true" editable="false" layoutX="330.0" layoutY="32.0" prefHeight="31.0" prefWidth="147.0" text="Words Per Minute">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField disable="true" editable="false" layoutX="330.0" layoutY="88.0" prefHeight="31.0" prefWidth="147.0" text="Accuracy">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField disable="true" editable="false" layoutX="45.0" layoutY="32.0" prefHeight="31.0" prefWidth="147.0" text="Elapsed Seconds">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField disable="true" editable="false" layoutX="45.0" layoutY="88.0" prefHeight="31.0" prefWidth="147.0" text="Done Percentage">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="elapsedTimeTextField" disable="true" editable="false" layoutX="192.0" layoutY="32.0" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: white; -fx-opacity: 1;">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="donePercentageTextField" disable="true" layoutX="192.0" layoutY="88.0" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: white; -fx-opacity: 1;">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="wpmTextField" disable="true" layoutX="477.0" layoutY="32.0" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: white; -fx-opacity: 1;">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="accuracyTextField" disable="true" layoutX="477.0" layoutY="88.0" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: white; -fx-opacity: 1;">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mistakeText" alignment="CENTER" editable="false" layoutX="195.0" layoutY="166.0" promptText="Mistake Found" style="-fx-background-color: red;" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="playAgainButton" layoutX="208.0" layoutY="532.0" mnemonicParsing="false" onAction="#PlayAgainSessionEvent" prefHeight="25.0" prefWidth="205.0" text="Play Again" visible="false">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
+>>>>>>> de77b63f8efce10dd1e2a6689b8f03c8e3e5a713

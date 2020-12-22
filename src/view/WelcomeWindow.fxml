@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.*?>
@@ -28,3 +29,35 @@
         <Cursor fx:constant="DEFAULT" />
     </cursor>
 </AnchorPane>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="welcomeWindowPane" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WelcomeWindowController">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@/TypeRacerIcon.png" />
+            </image></ImageView>
+        <Button fx:id="continueButton" layoutX="274.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Continue" />
+        <TextField fx:id="nicknameField" layoutX="232.0" layoutY="388.0" />
+        <TextField alignment="CENTER" disable="true" editable="false" layoutX="201.0" layoutY="332.0" text="Enter your name">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+            </font>
+        </TextField>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@/flag.png" />
+            </image></ImageView>
+    </children>
+    <cursor>
+        <Cursor fx:constant="DEFAULT" />
+    </cursor>
+</AnchorPane>
+>>>>>>> de77b63f8efce10dd1e2a6689b8f03c8e3e5a713
